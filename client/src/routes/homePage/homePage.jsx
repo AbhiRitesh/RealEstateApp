@@ -4,17 +4,14 @@ import "./homePage.scss";
 import { AuthContext } from "../../context/AuthContext";
 
 function HomePage() {
-  const {currentUser} = useContext(AuthContext)
+  const { currentUser } = useContext(AuthContext)
   return (
     <div className="homePage">
       <div className="textContainer">
         <div className="wrapper">
           <h1 className="title">Find Real Estate & Get Your Dream Place</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
-            explicabo suscipit cum eius, iure est nulla animi consequatur
-            facilis id pariatur fugit quos laudantium temporibus dolor ea
-            repellat provident impedit!
+            Discover a world of stunning properties tailored to your lifestyle. Whether you're seeking a modern apartment, a charming family home, or a lucrative investment, we provide the perfect match. Explore an extensive collection of handpicked listings with detailed insights, personalized recommendations, and expert guidance every step of the way. Find your dream home or next investment today with our trusted real estate experts.
           </p>
           <SearchBar />
           <div className="boxes">
